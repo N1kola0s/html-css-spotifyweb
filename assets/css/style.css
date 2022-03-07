@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+/* #region variables */
+:root{
+    --bg_sidebar-color: #000000;
+    --bg_main-color: #141922;
+    --bg_player-color: #282828;
+    --bg_player-color: #080B12;
+}
+
+/* #endregion */
+
 /* #region sidebar */
 /* #endregion*/
 
