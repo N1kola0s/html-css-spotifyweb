@@ -39,6 +39,26 @@
     display:flex;
 }
 
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding:0 24px;
+}
+
+
+.icon{
+    height: 24px;
+    width: 24px;
+}
+
+
+svg{
+    width: 100%;
+    color:var(--txt_secondary-color);
+}
 
 /* #endregion */
 
@@ -67,14 +87,38 @@
 
 /* #endregion */
 
-/* #region sidebar */
-.sidebar{
+/* #region navbar */
+.navbar{
     z-index: 2;
+    flex-direction: column;
     height: calc( 100vh - 90px);
     background-color: var(--bg_sidebar-color);
     color:var(--txt_secondary-color);
+    padding-top: 24px;
+
     
 }
+
+.logo{
+    height: 43px;
+    max-width: 134px;
+    margin-bottom: 18px;
+    padding: 0 24px;
+}
+
+
+.nav_item {
+    align-items: center;
+}
+
+
+.nav_item .nav_text{
+    padding:12px 10px;
+}
+
+
+
+
 /* #endregion*/
 
 /* #region footer */
