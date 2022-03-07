@@ -141,6 +141,10 @@ h3 {
     margin-top: auto;
 }
 
+.cta{
+    border-bottom: 1px solid var(--txt_secondary-color);
+} 
+
 #profile_img{
     height: 24px;
     width: 24px;
@@ -149,13 +153,10 @@ h3 {
     
 }
 
-.cta{
-    padding-bottom:10px;
-    border-bottom: 1px solid var(--txt_secondary-color);
-} 
+
 
 .user>.user_id{
-    color:white;
+    color:var(--txt_primary-color);
     font-weight: 700;
 }
 
