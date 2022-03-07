@@ -52,13 +52,15 @@
 }
 
 .main_view {
+    z-index: 0;
     background-color: var(--bg_main-color);
     color:var(--txt_primary-color);
     
 }
 
 .top_bar{
-    height: 88px;
+    z-index: 1;
+    height: 90px;
     background-color:var(--bg_topbar-color) ;
 }
 
@@ -67,6 +69,7 @@
 
 /* #region sidebar */
 .sidebar{
+    z-index: 2;
     height: calc( 100vh - 90px);
     background-color: var(--bg_sidebar-color);
     color:var(--txt_secondary-color);
@@ -77,6 +80,7 @@
 /* #region footer */
 
 footer{
+    z-index: 3;
     height:90px;
     background-color: var(--bg_player-color);
     color:var(--txt_primary-color);
