@@ -123,6 +123,12 @@ h3 {
     padding:12px 10px;
 }
 
+.active{
+    color:var(--txt_primary-color);
+    border-left: 3px solid #ADFF2F;
+    padding-left:-10px;
+    height: 20%;
+}
 
 
 .icon.plus {
@@ -153,11 +159,26 @@ h3 {
     
 }
 
-
-
 .user>.user_id{
     color:var(--txt_primary-color);
     font-weight: 700;
+}
+
+.main_view .top_bar{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn{
+    border: 1px solid var(--txt_primary-color);
+    border-radius: 20px;
+    background-color: trasparent;
+    color: var(--txt_primary-color);
+    padding:8px 34px;
+    cursor:pointer;
+    font-size:12px;
+    text-align:center;
+    margin-right: 15px;
 }
 
 /* #endregion*/
