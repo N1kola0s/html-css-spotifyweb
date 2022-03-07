@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* #region variables */
@@ -45,7 +46,6 @@ img{
 
 ul{
     list-style: none;
-    padding:0 24px;
 }
 
 
@@ -60,7 +60,17 @@ svg{
     color:var(--txt_secondary-color);
 }
 
+
+h3 {
+    font-size: 12px;
+    padding: 14px 0 0;
+    color:var(--txt_primary-color);
+}
+
 /* #endregion */
+.upc {
+    text-transform: uppercase;
+}
 
 /* #endregion */
 
@@ -94,7 +104,7 @@ svg{
     height: calc( 100vh - 90px);
     background-color: var(--bg_sidebar-color);
     color:var(--txt_secondary-color);
-    padding-top: 24px;
+    padding:24px;
 
     
 }
@@ -103,7 +113,6 @@ svg{
     height: 43px;
     max-width: 134px;
     margin-bottom: 18px;
-    padding: 0 24px;
 }
 
 
@@ -112,11 +121,22 @@ svg{
 }
 
 
-.nav_item .nav_text{
+.nav_item .nav_text {
     padding:12px 10px;
 }
 
 
+.icon.plus {
+    background-color: var(--txt_secondary-color);
+    color:black;
+    text-align: center;
+}
+
+
+.playlist_name{
+    padding-bottom:12px;
+    
+}
 
 
 /* #endregion*/
