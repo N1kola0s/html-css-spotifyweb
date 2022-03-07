@@ -9,21 +9,78 @@
     --bg_sidebar-color: #000000;
     --bg_main-color: #141922;
     --bg_player-color: #282828;
-    --bg_player-color: #080B12;
+    --bg_topbar-color: rgba(0,0,0,0.4);
 
     --txt_primary-color:#FFFFFF;
     --txt_secondary-color:#707277;
 }
 
+/* #region grid */
+
+.row {
+    width: 100%;
+}
+
+.cl_20 {
+    width: 20%;
+}
+
+.cl_80 {
+    width: 80%;
+    
+}
+
+
+/* #endregion */
+
+/* #region common */
+
+.flex {
+    display:flex;
+}
+
+
+/* #endregion */
+
+/* #endregion */
+
+
+/* #region main */
+.main_container{
+    height: calc( 100vh - 90px);
+    justify-content: flex-start;
+}
+
+.main_view {
+    background-color: var(--bg_main-color);
+    color:var(--txt_primary-color);
+    
+}
+
+.top_bar{
+    height: 88px;
+    background-color:var(--bg_topbar-color) ;
+}
+
+
 /* #endregion */
 
 /* #region sidebar */
+.sidebar{
+    height: calc( 100vh - 90px);
+    background-color: var(--bg_sidebar-color);
+    color:var(--txt_secondary-color);
+    
+}
 /* #endregion*/
 
-/* #region main */
-/* #endregion */
-
 /* #region footer */
+
+footer{
+    height:90px;
+    background-color: var(--bg_player-color);
+    color:var(--txt_primary-color);
+}
 /* #endregion */
 
 
