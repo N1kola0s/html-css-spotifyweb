@@ -273,7 +273,7 @@ h4{
 .player_rh .control{
     background-color: var(--bar_primary-color);
     height: 5px;
-    width:100%;
+    width:120px;
 }
 
 
