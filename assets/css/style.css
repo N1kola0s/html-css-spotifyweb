@@ -14,6 +14,9 @@
 
     --txt_primary-color:#FFFFFF;
     --txt_secondary-color:#707277;
+
+    --bar_primary-color: #5A5A5A;
+    --bar_secondary-color:#C1C1C1;
 }
 
 /* #region grid */
@@ -217,7 +220,7 @@ main{
 /* #region footer */
 
 footer{
-    z-index: 3;
+   /*  z-index: 3; */
     height:90px;
     background-color: var(--bg_player-color);
     color:var(--txt_primary-color);
@@ -254,11 +257,28 @@ h4{
     font-size: 15px;
 }
 
-
 .music .song{
     color:var(--txt_secondary-color);
     font-size:12px;
 }
 
 
+.player .player_rh {
+    justify-content: flex-end;
+    align-items: center;
+    padding:0 10px;
+}
 
+
+.player_rh .control{
+    background-color: var(--bar_primary-color);
+    height: 5px;
+    width:100%;
+}
+
+
+.control .progress{
+    background-color: var(--bar_secondary-color);
+    height:5px;
+    width: 25%;
+}
