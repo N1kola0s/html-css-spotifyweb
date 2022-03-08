@@ -297,7 +297,7 @@ h4{
     padding-top:10px;
     justify-content: center;
     align-items: center;
-    width: calc(100vw - 50vw);
+    width: calc(100vw - 50%);
     
 }
 
