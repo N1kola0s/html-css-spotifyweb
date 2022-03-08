@@ -299,6 +299,7 @@ main{
 .album {
     height: 182px;
     width: 184px;
+    margin-right:20px;
 }
 
 .album img{
