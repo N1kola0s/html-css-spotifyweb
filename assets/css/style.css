@@ -224,7 +224,27 @@ main{
     margin-right: 15px;
 }
 
+
+.menu {
+    justify-content: center;
+    font-size:12px;
+    padding: 24px;
+}
+
 /* #endregion*/
+
+
+.menu .first{
+    flex-direction: column;
+    align-items: center;
+}
+
+#active_bottom{
+    color:var(--txt_primary-color);
+    border-bottom: 2px solid #ADFF2F;
+    width: 35%;
+
+}
 
 /* #region footer */
 
@@ -239,7 +259,7 @@ footer{
 footer .player{
     align-items: center;;
 }
-/* #endregion */
+
 
 .player .player_lh{
     justify-content: flex-start;
@@ -327,3 +347,5 @@ h4{
 #mid_play{
     font-size:32px ;
 }
+
+/* #endregion */
