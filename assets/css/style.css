@@ -251,7 +251,7 @@ main{
     color: var(--txt_primary-color);
     padding:8px 34px;
     cursor:pointer;
-    font-size:14px;
+    font-size:12px;
     text-align:center;
     margin-right: 15px;
 }
@@ -267,7 +267,7 @@ main{
 
 .menu {
     justify-content: center;
-    font-size:14px;
+    font-size:12px;
     padding: 0 24px 24px;
 }
 
@@ -287,7 +287,7 @@ main{
 .catalog{
     min-height:337px;
     min-width: 100%;
-    justify-content: space-around;
+    justify-content: flex-start;
     gap:16px;
 }
 
@@ -298,10 +298,10 @@ main{
 }
 
 .album {
-    height: 182px;
+    /* height: 182px; */
     /* width: 184px; */
     margin-right:20px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .album img{
@@ -314,8 +314,8 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content:center;
+    text-align: center;
 }
-
 
 
 
