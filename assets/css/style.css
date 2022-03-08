@@ -26,6 +26,22 @@
     width: 20%;
 }
 
+.cl_25{
+    width: 25%;
+}
+
+.cl_30{
+    width: 30%;
+}
+
+.cl_50{
+    width: 50%;
+}
+
+.cl_75{
+    width: 75%;
+}
+
 .cl_80 {
     width: 80%;
     
@@ -64,6 +80,18 @@ svg{
 h3 {
     font-size: 12px;
     padding: 14px 0 0;
+    color:var(--txt_primary-color);
+}
+
+.pdlr_10{
+    padding:0 10px;
+}
+
+.grey {
+    color:var(--txt_secondary-color);
+}
+
+.white{
     color:var(--txt_primary-color);
 }
 
@@ -190,7 +218,44 @@ footer{
     height:90px;
     background-color: var(--bg_player-color);
     color:var(--txt_primary-color);
+    justify-content: center;
+    align-items: center;
+}
+
+footer .player{
+    justify-content: flex-between;
+    align-items: center;
 }
 /* #endregion */
+
+.player .player_lh{
+    justify-content: flex-start;
+    align-items: center;
+    padding:0 10px;
+
+}
+
+.player_lh .cover{
+    height: 43px;
+    width: 43px;
+}
+
+.player_lh .music{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
+
+}
+
+h4{
+    font-size: 15px;
+}
+
+
+.music .song{
+    color:var(--txt_secondary-color);
+    font-size:12px;
+}
+
 
 
