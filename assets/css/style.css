@@ -5,6 +5,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 /* #region variables */
 :root{
     --bg_sidebar-color: #000000;
@@ -103,7 +122,6 @@ h4{
 
 h5{
     font-size: 12px;
-    padding: 14px 0 0;
     color:var(--txt_primary-color);
 }
 
@@ -120,6 +138,10 @@ h5{
     padding: 30px 0;
 }
 
+
+.pdl_24{
+    padding-left:24px;
+}
 .pdlr_10{
     padding:0 10px;
 }
@@ -156,8 +178,11 @@ h5{
 .main_view {
     background-color: var(--bg_main-color);
     color:var(--txt_primary-color);
+    overflow-y: scroll;
+    height: calc(100vh - 90px);
     
 }
+
 
 .top_bar{
     height: 90px;
@@ -177,7 +202,7 @@ main{
     height: calc( 100vh - 90px);
     background-color: var(--bg_sidebar-color);
     color:var(--txt_secondary-color);
-    padding:24px 24px 0;
+    padding:24px 24px 0 0;
     min-width:232px;
     
 }
@@ -283,6 +308,10 @@ main{
 
 }
 
+
+section{
+    margin-top: 38px;
+}
 
 .catalog{
     min-height:337px;
