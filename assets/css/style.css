@@ -126,6 +126,11 @@ h5{
 }
 
 
+
+.br_50{
+    border-radius: 50%;
+}
+
 .pd_14{
     padding: 14px;
 }
