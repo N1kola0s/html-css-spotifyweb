@@ -105,12 +105,6 @@ ul{
 }
 
 
-svg{
-    width: 100%;
-    color:var(--txt_secondary-color);
-}
-
-
 h2{
     font-size:25px;
     color: var(--txt_primary-color);
@@ -556,5 +550,10 @@ footer .player{
     visibility: visible;
     cursor: pointer;
 }
+
+/* #endregion */
+
+/* #region media query */
+
 
 /* #endregion */
