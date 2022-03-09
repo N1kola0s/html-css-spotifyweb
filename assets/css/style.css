@@ -179,8 +179,7 @@ h5{
 /* #endregion */
 
 
-/*****************
-       MAIN
+/***   MAIN    ***
 ******************/
 
 main{
@@ -310,9 +309,17 @@ main{
 
 .menu {
     justify-content: center;
-    font-size:12px;
+    font-size:16px;
+    font-weight: 700;
     padding: 0 24px 24px;
 }
+
+.menu .category{
+    flex-wrap: wrap;
+    row-gap: 16px;
+    justify-content:center;
+}
+
 
 .menu .first{
     flex-direction: column;
@@ -336,14 +343,15 @@ section{
 }
 
 .catalog{
-    min-height:337px;
-    min-width: 100%;
+    /* min-height:337px;
+    min-width: 100%; */
     justify-content: flex-start;
+    flex-wrap: wrap;
     gap:16px;
 }
 
 .cards{
-    width:calc(100% / 6 - 15px);
+    width:calc(100% / 6 - 16px);
     
     
 }
@@ -351,7 +359,7 @@ section{
 .album {
     /* height: 182px; */
     /* width: 184px; */
-    margin-right:20px;
+    /* margin-right:20px; */
     /* width: 100%; */
 }
 
@@ -379,13 +387,13 @@ section{
     align-items: center;
     justify-content:center;
     text-align: center;
+    padding: 16px 0 0;
 }
 
 /* #endregion */
 
 
-/****************
-      FOOTER 
+/***  FOOTER  ***
  ****************/
 
 /* #region footer */
@@ -402,12 +410,11 @@ footer .player{
     align-items: center;;
 }
 
-
 .player .player_lh{
     justify-content: flex-start;
     align-items: center;
     padding:0 10px;
-    /* flex-grow: 1; */
+    flex-grow: 1;
 
 }
 
@@ -422,19 +429,16 @@ footer .player{
     padding: 0 30px 0 10px;
 }
 
-
-
 .music .song{
     color:var(--txt_secondary-color);
     font-size:12px;
 }
 
-
 .player .player_rh {
     justify-content: flex-end;
     align-items: center;
     padding:0 10px;
-    /* flex-grow: 1; */
+    flex-grow: 1;
 }
 
 
@@ -464,7 +468,7 @@ footer .player{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* flex-grow: 3; */
+    flex-grow: 3;
 }
 
 
@@ -501,7 +505,6 @@ footer .player{
 }
 
 /* #endregion */
-
 
 /* #region effects */
 
@@ -553,7 +556,72 @@ footer .player{
 
 /* #endregion */
 
-/* #region media query */
 
 
+/****** media query ***** 
+*************************/
+
+/* #region Large */
+
+/* @media screen and (max-width:1200px){} */
+
+/* #endregion */
+
+/* #region Medium*/
+
+@media screen and (max-width:992px){
+
+    .cards{
+        width: calc(100% / 4 - 16px);
+        /* column-gap: 20px; */
+    }
+
+    h3{ 
+        font-size: 18px;
+    }
+
+    h5{
+        font-size:14px;
+    }
+
+    .mid_bottom .control{
+        width: 249px;
+    }
+
+    i{
+        font-size: 14px;
+    }
+
+    .category li{
+        padding:0 12px;
+        font-size: 14px;
+    }
+
+    .mid_top i {
+        font-size: 16px;
+        padding:0 16px;
+    }
+
+    .album_sub, p {
+        font-size: 14px;
+    }
+
+}
+
+/* #endregion */
+
+/* #region Small */
+
+@media screen and (max-width:768px){
+    .cards{
+        width: calc(100% / 2 - 16px);
+    
+    }
+
+}
+
+/* #endregion */
+
+/* #region x-small */
+/* @media screen and (max-width:576px){}  */
 /* #endregion */
