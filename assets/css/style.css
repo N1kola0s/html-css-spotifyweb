@@ -498,12 +498,53 @@ footer .player{
 /* #endregion */
 
 
-/* effects */
+/* #region effects */
+
+/* menu */
+
+.category>li:hover{
+    color:var(--txt_primary-color);
+    cursor: pointer;
+}
+
+
+.nav_item:hover{
+    cursor: pointer;
+    color:var(--txt_primary-color);
+    
+}
+
+
+.icon.plus:hover{
+    background-color: var(--txt_primary-color);
+}
+.playlist_name:hover{
+    cursor: pointer;
+    color:var(--txt_primary-color);
+}
+
+
+
+.cta.nav_item:hover {
+    cursor: pointer;
+    color: var(--txt_primary-color);
+}
+
+
+
+
+
+
+/* cards */
 
 .album_top:hover img{
     filter: opacity(0.5);
+    cursor:pointer;
 }
 
 .album_top:hover .h_play{
     visibility: visible;
+    cursor: pointer;
 }
+
+/* #endregion */
