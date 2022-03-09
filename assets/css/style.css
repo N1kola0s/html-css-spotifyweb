@@ -310,7 +310,7 @@ main{
 .container_lg{
     padding: 24px 32px 0;
     flex-direction: column;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 180px);
     overflow-y: scroll;
 }
 
