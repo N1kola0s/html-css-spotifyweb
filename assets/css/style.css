@@ -157,6 +157,10 @@ h5{
     padding: 16px 0;
 }
 
+.pdt_24{
+    padding-top: 24px;
+}
+
 .pdud_30{
     padding: 30px 0;
 }
@@ -196,22 +200,23 @@ main{
 .main_view {
     background-color: var(--bg_main-color);
     color:var(--txt_primary-color);
-    overflow-y: scroll;
-    height: calc(100vh - 90px); 
+    /* height: calc(100vh - 90px);  */
+    height: 100%;
 }
 
 
 
 /* #region navbar */
 
+
 .navbar{
     flex-direction: column;
+    justify-content: space-between;
     height: calc( 100vh - 90px);
     background-color: var(--bg_sidebar-color);
     color:var(--txt_secondary-color);
     padding:24px 24px 0 0;
-    min-width:232px;
-    
+    min-width:232px;  
 }
 
 .logo{
@@ -304,6 +309,8 @@ main{
 .container_lg{
     padding: 24px 32px 0;
     flex-direction: column;
+    height: calc(100vh - 90px);
+    overflow-y: scroll;
 }
 
 .menu {
@@ -379,7 +386,7 @@ footer{
     height:90px;
     background-color: var(--bg_player-color);
     color:var(--txt_primary-color);
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -392,6 +399,7 @@ footer .player{
     justify-content: flex-start;
     align-items: center;
     padding:0 10px;
+    /* flex-grow: 1; */
 
 }
 
@@ -418,6 +426,7 @@ footer .player{
     justify-content: flex-end;
     align-items: center;
     padding:0 10px;
+    /* flex-grow: 1; */
 }
 
 
@@ -438,7 +447,7 @@ footer .player{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    /* flex-grow: 3; */
 }
 
 
