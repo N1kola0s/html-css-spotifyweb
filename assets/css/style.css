@@ -20,6 +20,7 @@
 
     --bar_primary-color: #5A5A5A;
     --bar_secondary-color:#C1C1C1;
+    --bar_active-color: #ADFF2F;
 }
 
 /* #endregion */
@@ -447,6 +448,7 @@ footer .player{
     background-color: var(--bar_primary-color);
     height: 5px;
     width:120px;
+    position:relative;
 }
 
 
@@ -454,6 +456,14 @@ footer .player{
     background-color: var(--bar_secondary-color);
     height:5px;
     width: 25%;
+    
+}
+
+.i_prog {
+    position:absolute;
+    left: 25%;
+    top: -110%;
+    visibility: hidden;
 }
 
 .player_mid {
@@ -477,6 +487,7 @@ footer .player{
     height: 5px;
     width:428px;
     min-width: 165px;
+    position:relative;
 }
 
 
@@ -500,42 +511,41 @@ footer .player{
 
 /* #region effects */
 
-/* menu */
-
-.category>li:hover{
-    color:var(--txt_primary-color);
-    cursor: pointer;
-}
-
-
-.nav_item:hover{
-    cursor: pointer;
-    color:var(--txt_primary-color);
-    
-}
-
+/* common effects */
 
 .icon.plus:hover{
     background-color: var(--txt_primary-color);
 }
-.playlist_name:hover{
-    cursor: pointer;
-    color:var(--txt_primary-color);
-}
 
-
-
-.cta.nav_item:hover {
+.category>li:hover, .cta.nav_item:hover, .playlist_name:hover, .nav_item:hover, .like:hover, .save:hover, .song:hover{
     cursor: pointer;
     color: var(--txt_primary-color);
 }
 
+/* player effects */
+
+.song:hover{
+    text-decoration: underline;
+}
 
 
+.h_scl:hover {
+    transform:scale(1.1);
+    cursor: pointer;
+}
 
 
+.progress:hover{
+    cursor: pointer;
+    background-color:var(--bar_active-color);
+}
 
-/* cards */
+.control:hover .i_prog{
+    visibility: visible;
+    cursor: pointer;
+}
+
+/* cards effects*/
 
 .album_top:hover img{
     filter: opacity(0.5);
