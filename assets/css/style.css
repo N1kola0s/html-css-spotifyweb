@@ -220,6 +220,10 @@ main{
     margin-bottom: 18px;
 }
 
+.logo .small_logo{
+    display:none;
+}
+
 .nav_item {
     align-items: center;
 }
@@ -639,12 +643,117 @@ footer .player{
         padding: 0 10px;
     }
 
-   
 
 }
 
 /* #endregion */
 
 /* #region x-small */
-/* @media screen and (max-width:576px){}  */
+
+@media screen and (max-width:576px){
+
+    .cards{
+        width: calc(100% / 2 - 16px);
+    }
+
+    .cl_20{
+        width: 15%;
+    }
+
+    .cl_80{
+        width: 90%;
+    }
+
+    .player .cl_20{
+        width: 25%;
+    }
+    
+    .cl_60{
+        width:50%;
+    }
+
+    .navbar{
+        min-width: 50px;
+    }
+
+    .navbar img{
+        height:30px;
+        width: 30px;
+    }
+
+    #profile_img{
+        height:30px;
+        width: 30px;
+    }
+
+    .logo{
+        margin-bottom: 0px;
+    }
+
+    .logo .main_logo{
+        display:none;
+    }
+
+    .logo .small_logo{
+        display:block;
+    }
+    
+    .navbar .active{
+        border-left: 0px;
+    }
+
+    .navbar .icon, .navbar {
+        padding: 20px 0;
+    }
+
+    .icon_download{
+        padding: 20px 7px;
+    }
+
+    .nav_text{
+        display:none;
+    }
+
+    .playlist{
+        display:none;
+    }
+
+    .user_id{
+        display:none;
+    }
+
+    .cta{
+        border-bottom:0px;
+    }
+
+    .category li{
+        font-size:10px;
+    }
+
+    .selector, .tv{
+        display:none;
+    }
+
+    .player_lh .music{
+        display:none;
+    }
+
+    .cover img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .player{
+        justify-content: space-between;
+
+    }
+
+    .player_lh .save, .player_lh .like{
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+} 
+
+
 /* #endregion */
