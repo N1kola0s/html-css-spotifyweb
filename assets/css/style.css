@@ -775,6 +775,11 @@ footer .player{
 
 @media screen and (max-width:480px){
 
+    .main_view .top_bar {
+        justify-content: center;
+    
+    }
+
     .cards{
         width: calc(100% / 1 - 16px);
     }
