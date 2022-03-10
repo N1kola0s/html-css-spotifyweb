@@ -566,13 +566,8 @@ footer .player{
 /****** media query ***** 
 *************************/
 
-/* #region Large */
 
-/* @media screen and (max-width:1200px){} */
-
-/* #endregion */
-
-/* #region Medium*/
+/* #region Large*/
 
 @media screen and (max-width:992px){
 
@@ -611,7 +606,7 @@ footer .player{
 
 /* #endregion */
 
-/* #region Small */
+/* #region Medium */
 
 @media screen and (max-width:768px){
     .cards{
@@ -648,7 +643,7 @@ footer .player{
 
 /* #endregion */
 
-/* #region x-small */
+/* #region small */
 
 @media screen and (max-width:576px){
 
@@ -767,9 +762,87 @@ footer .player{
 
 } 
 
+/* #endregion */
+
+/* #region x-small */
+
+@media screen and (max-width:480px){
+
+    .cards{
+        width: calc(100% / 1 - 16px);
+    }
+
+    .cl_20{
+        width: 15%;
+    }
+
+    .cl_80{
+        width: 90%;
+    }
+
+    .navbar{
+        align-items: center;
+    }
+
+    .pdl_24 {
+        padding-left: 0px;
+    }
+
+    .menu .category{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;       
+    }
+
+    .like, .save{
+        display:none;
+    }
+
+    h2, h3, p{
+        text-align: center;
+    }
+
+    .album_text{
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:368px){
+    .player_lh{
+        display: none;
+    }
+
+    .player_rh .control{
+        display: none;
+    }
+
+    .player .cl_20{
+        width:10%;
+    }
+
+    .player .cl_60{
+        width: 90%;
+    }
+
+
+}
+
+/* #endregion */
+
+/* #region bonus */
+
 @media screen and (max-height:179px){
     .top_bar{
         display:hidden;
     }
+
+}
+
+/* #endregion */
 
 /* #endregion */
