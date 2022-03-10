@@ -311,7 +311,7 @@ main{
 /* #region menu */
 
 .container_lg{
-    padding: 24px 32px 0;
+    padding: 24px 17px 0;
     flex-direction: column;
     height: calc(100vh - 180px);
     overflow-y: scroll;
@@ -615,7 +615,7 @@ footer .player{
 
 @media screen and (max-width:768px){
     .cards{
-        width: calc(100% / 2 - 16px);
+        min-width: calc(100% / 2 - 16px);
     
     }
 
@@ -643,14 +643,20 @@ footer .player{
         padding: 0 10px;
     }
 
-    #recently_played{
-        overflow-x: scroll;
+    .container_lg{
+        padding: 24px 18px 0;
     }
 
+    /* .recently_played{
+        margin-right: -22px;
+    } */
+    
     .catalog{ 
         justify-content: flex-start;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: 16px;
+        overflow-x: auto;
+        min-width: 390px;
     }
 
 
@@ -666,6 +672,10 @@ footer .player{
         width: calc(100% / 2 - 16px);
     }
 
+    /* .navbar{
+        width: 70px;
+    } */
+
     h3{
         font-size:16px;
     }
@@ -675,7 +685,7 @@ footer .player{
     }
 
     .cl_80{
-        width: 90%;
+        width: 85%;
     }
 
     .player .cl_20{
