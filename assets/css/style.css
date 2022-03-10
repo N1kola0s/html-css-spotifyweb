@@ -299,7 +299,7 @@ main{
 .btn{
     border: 1px solid var(--txt_primary-color);
     border-radius: 20px;
-    background-color: transparent;
+    /* background-color: transparent; */
     color: var(--txt_primary-color);
     padding:8px 34px;
     cursor:pointer;
@@ -845,7 +845,7 @@ footer .player{
 
 @media screen and (max-height:179px){
     .top_bar{
-        display:none;
+        visibility: hidden;
     }
 
 }
