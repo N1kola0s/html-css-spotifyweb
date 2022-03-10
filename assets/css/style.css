@@ -345,14 +345,6 @@ section{
     
 }
 
-.album {
-    /* height: 182px; */
-    /* width: 184px; */
-    /* margin-right:20px; */
-    /* width: 100%; */
-}
-
-
 .album_top{
     position:relative;
 
@@ -403,7 +395,6 @@ footer .player{
     justify-content: flex-start;
     align-items: center;
     padding:0 10px;
-    /* flex-grow: 1; */
 
 }
 
@@ -860,3 +851,4 @@ footer .player{
 }
 
 /* #endregion */
+
