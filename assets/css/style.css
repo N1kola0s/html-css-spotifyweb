@@ -767,5 +767,9 @@ footer .player{
 
 } 
 
+@media screen and (max-height:179px){
+    .top_bar{
+        display:hidden;
+    }
 
 /* #endregion */
