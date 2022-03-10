@@ -656,6 +656,10 @@ footer .player{
         width: calc(100% / 2 - 16px);
     }
 
+    h3{
+        font-size:16px;
+    }
+
     .cl_20{
         width: 15%;
     }
@@ -726,8 +730,16 @@ footer .player{
         border-bottom:0px;
     }
 
-    .category li{
+    /* .category li{
         font-size:10px;
+    } */
+
+    .menu .category{
+
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+        column-gap: 20px;
     }
 
     .selector, .tv{
