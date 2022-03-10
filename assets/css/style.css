@@ -294,6 +294,7 @@ main{
     height: calc(100vh - 180px);
     overflow-y: scroll;
     margin-right: 5px;
+    overflow-x: hidden;
 }
 
 .menu {
@@ -772,6 +773,7 @@ footer .player{
     .cards{
         width: calc(100% / 1 - 16px);
     }
+    
 
     .cl_20{
         width: 15%;
@@ -789,6 +791,10 @@ footer .player{
         padding-left: 0px;
     }
 
+    /* .container_lg{
+        overflow-x: hidden;
+    }
+ */
     .menu .category{
         flex-wrap: wrap;
         flex-direction: column;
