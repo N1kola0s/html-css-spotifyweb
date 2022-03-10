@@ -236,8 +236,11 @@ main{
 .active{
     color:var(--txt_primary-color);
     border-left: 3px solid #ADFF2F;
-    padding-left:-10px;
     height: 20%;
+}
+
+.home{
+    margin-left: -2px;
 }
 
 
@@ -252,6 +255,10 @@ main{
     padding-bottom:12px;
     
 }
+
+/* .scroll_playlist{
+    overflow: auto;
+} */
 
 /* .profile{
     margin-top: auto;
@@ -292,7 +299,7 @@ main{
 .btn{
     border: 1px solid var(--txt_primary-color);
     border-radius: 20px;
-    background-color: trasparent;
+    background-color: transparent;
     color: var(--txt_primary-color);
     padding:8px 34px;
     cursor:pointer;
@@ -838,7 +845,7 @@ footer .player{
 
 @media screen and (max-height:179px){
     .top_bar{
-        display:hidden;
+        display:none;
     }
 
 }
