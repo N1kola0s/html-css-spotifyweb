@@ -256,13 +256,11 @@ main{
     
 }
 
-/* .scroll_playlist{
-    overflow: auto;
-} */
-
-/* .profile{
-    margin-top: auto;
-} */
+.playlist_list{
+    height: calc(100vh - 500px);
+    min-height: 100px;
+    overflow-y: auto;
+}
 
 .cta{
     border-bottom: 1px solid var(--txt_secondary-color);
@@ -645,6 +643,16 @@ footer .player{
         padding: 0 10px;
     }
 
+    #recently_played{
+        overflow-x: scroll;
+    }
+
+    .catalog{ 
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
 
 }
 
@@ -806,6 +814,7 @@ footer .player{
         justify-content: center;
         align-items: center;       
     }
+
 
     .like, .save{
         display:none;
