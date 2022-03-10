@@ -53,6 +53,7 @@
     width: 100%;
 }
 
+
 .cl_15{
     width: 15%;
 }
@@ -414,7 +415,7 @@ footer .player{
     justify-content: flex-start;
     align-items: center;
     padding:0 10px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 
 }
 
@@ -438,7 +439,7 @@ footer .player{
     justify-content: flex-end;
     align-items: center;
     padding:0 10px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 
@@ -468,7 +469,7 @@ footer .player{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-grow: 3;
+    /* flex-grow: 3; */
 }
 
 
@@ -588,10 +589,6 @@ footer .player{
         width: 249px;
     }
 
-    i{
-        font-size: 14px;
-    }
-
     .category li{
         padding:0 12px;
         font-size: 14px;
@@ -617,6 +614,32 @@ footer .player{
         width: calc(100% / 2 - 16px);
     
     }
+
+    .cl_20{
+        width: 30%;
+    }
+
+    .cl_60{
+        width:40%;
+    }
+
+    .music .song{
+        font-size:9px;
+    }
+
+    .mid_bottom .control{
+        width: 146px;
+    }
+
+    .music_actions{
+        flex-direction: column;
+    }
+
+    .time{
+        padding: 0 10px;
+    }
+
+   
 
 }
 
