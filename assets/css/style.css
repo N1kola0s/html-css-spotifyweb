@@ -864,24 +864,24 @@ footer .player{
         }
 
     25% {
-        border-top: 9px solid var(--bar_active-color);
+        border-top: 9px solid green;
         }
     
-    50% {border-top: 9px solid var(--bar_active-color); 
-        border-right:9px solid var(--bar_active-color);
+    50% {border-top: 9px solid green; 
+        border-right:9px solid green;
         }
     
     75% {
-        border-top: 9px solid var(--bar_active-color);
-        border-right:9px solid var(--bar_active-color);
-        border-bottom: 9px solid var(--bar_active-color);
+        border-top: 9px solid green;
+        border-right:9px solid green;
+        border-bottom: 9px solid green;
         }
 
     100% {
-        border-top: 9px solid var(--bar_active-color);
-        border-right:9px solid var(--bar_active-color);
-        border-bottom:9px solid var(--bar_active-color);
-        border-left:9px solid var(--bar_active-color);
+        border-top: 9px solid green;
+        border-right:9px solid green;
+        border-bottom:9px solid green;
+        border-left:9px solid green;
         }
   }
 
