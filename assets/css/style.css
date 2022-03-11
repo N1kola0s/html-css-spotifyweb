@@ -298,7 +298,7 @@ main{
 }
 
 .menu {
-    justify-content: center;
+    /* justify-content: center; */
     font-size:16px;
     font-weight: 700;
     padding: 0 24px 24px;
@@ -320,6 +320,7 @@ main{
     color:var(--txt_primary-color);
     border-bottom: 2px solid #ADFF2F;
     width: 35%;
+    margin-top:5px;
 
 }
 
@@ -549,7 +550,6 @@ footer .player{
 
     .cards{
         width: calc(100% / 4 - 16px);
-        /* column-gap: 20px; */
     }
 
     h3{ 
@@ -622,10 +622,6 @@ footer .player{
         padding: 24px 18px 0;
         
     }
-
-    /* .recently_played{
-        margin-right: -22px;
-    } */
     
     .catalog{ 
         justify-content: flex-start;
@@ -648,9 +644,6 @@ footer .player{
         width: calc(100% / 2 - 16px);
     }
 
-    /* .navbar{
-        width: 70px;
-    } */
 
     h3{
         font-size:16px;
@@ -726,16 +719,12 @@ footer .player{
         border-bottom:0px;
     }
 
-    /* .category li{
-        font-size:10px;
-    } */
 
     .menu .category{
 
         flex-wrap: wrap;
         justify-content: center;
-        row-gap: 30px;
-        column-gap: 20px;
+        row-gap: 25px;
     }
 
     .selector, .tv{
@@ -784,7 +773,7 @@ footer .player{
     }
 
     .cl_80{
-        width: 90%;
+        width: 85%;
     }
 
     .navbar{
@@ -795,15 +784,10 @@ footer .player{
         padding-left: 0px;
     }
 
-    /* .container_lg{
-        overflow-x: hidden;
-    }
- */
+
     .menu .category{
         flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;       
+        justify-content: center; 
     }
 
 
