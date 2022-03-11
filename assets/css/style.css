@@ -173,7 +173,6 @@ main{
 .main_view {
     background-color: var(--bg_main-color);
     color:var(--txt_primary-color);
-    /* height: calc(100vh - 90px);  */
     height: 100%;
 }
 
@@ -275,7 +274,6 @@ main{
 .btn{
     border: 1px solid var(--txt_primary-color);
     border-radius: 20px;
-    /* background-color: transparent; */
     color: var(--txt_primary-color);
     padding:8px 34px;
     cursor:pointer;
@@ -298,7 +296,7 @@ main{
 }
 
 .menu {
-    /* justify-content: center; */
+    
     font-size:16px;
     font-weight: 700;
     padding: 0 24px 24px;
@@ -334,8 +332,6 @@ section{
 }
 
 .catalog{
-    /* min-height:337px;
-    min-width: 100%; */
     justify-content: flex-start;
     flex-wrap: wrap;
     gap:16px;
@@ -420,7 +416,7 @@ footer .player{
     justify-content: flex-end;
     align-items: center;
     padding:0 10px;
-    /* flex-grow: 1; */
+    
 }
 
 
@@ -450,7 +446,7 @@ footer .player{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* flex-grow: 3; */
+    
 }
 
 
