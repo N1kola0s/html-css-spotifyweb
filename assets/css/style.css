@@ -845,3 +845,50 @@ footer .player{
 
 /* #endregion */
 
+/* #region animation */
+
+.loader{
+    height:62px;
+    width:62px;
+    border: 9px solid transparent;
+    border-radius:50%;
+    animation: loading 8s linear infinite;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes loading {
+
+    0% {  
+        border-top:9px solid transparent;
+        border-right:9px solid transparent;
+        border-bottom:9px solid transparent;
+        border-left:9px solid transparent
+        }
+
+    25% {
+        border-top: 9px solid green;
+        }
+    
+    50% {border-top: 9px solid green; 
+        border-right:9px solid green;
+        }
+    
+    75% {
+        border-top: 9px solid green;
+        border-right:9px solid green;
+        border-bottom: 9px solid green;
+        }
+
+    100% {
+        border-top: 9px solid green;
+        border-right:9px solid green;
+        border-bottom:9px solid green;
+        border-left:9px solid green;
+        }
+  }
+
+
+/* #endregion */
